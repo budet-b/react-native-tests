@@ -14,9 +14,6 @@ jobs:
       - checkout
 
       # Install CocoaPods
-      - run:
-          name: Install CocoaPods
-          command: cd ios/ && pod install && cd ../
-      # Collect XML test results data to show in the UI,
+     # Collect XML test results data to show in the UI,
       # and save the same XML files under test-results folder
       # in the Artifacts tab
