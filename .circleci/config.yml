@@ -16,7 +16,7 @@ jobs:
       # Install CocoaPods
       - run:
           name: Install CocoaPods
-          command: pod install
+          command: cd ios/ && pod install && cd ../
 
       # Build the app and run tests
       - run:
